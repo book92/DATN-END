@@ -497,7 +497,7 @@ const Statistic = () => {
 
     } catch (error) {
       console.error('Error in Excel export:', error);
-      Alert.alert('Lỗi', `Có lỗi xảy ra khi xuất file Excel: ${error.message}`);
+      Alert.alert('Lỗi', `Vui lòng mở quyền truy cập bộ nhớ của ứng dụng`);
     }
   };
 

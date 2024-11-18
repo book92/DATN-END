@@ -288,7 +288,7 @@ const DeviceDetail = ({ route, navigation }) => {
 
     } catch (error) {
       console.error('Error in PDF export:', error);
-      Alert.alert('Lỗi', `Không thể xuất file PDF: ${error.message}`);
+      Alert.alert('Lỗi', `Vui lòng mở quyền truy cập bộ nhớ của ứng dụng`);
     }
   };
 
